@@ -1,9 +1,23 @@
+import ThemeToggle from "../components/ThemeToggle.jsx";
+
 export default function Home() {
     return(
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-                <h1 className="text-4xl font-bold mb-4">Welcome to My App</h1>
-                <p className="text-lg text-gray-700">This is a simple React app using Vite and Tailwind CSS.</p>
+            <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+
+            <ThemeToggle/>
+
+            {/*Background Effects*/}
+
+
+            {/*Navabar*/}
+
+
+            {/*Main Content*/}
+
+
+
+            {/*Footer*/}
             </div>
         </>
     )
