@@ -1,5 +1,4 @@
-import { Sun } from 'lucide-react';
-import { Moon } from 'lucide-react';
+import { Sun, Moon } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utill.js';
 export default function ThemeToggle() {
