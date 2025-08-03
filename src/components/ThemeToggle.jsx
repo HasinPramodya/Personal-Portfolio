@@ -1,7 +1,6 @@
 import { Sun } from 'lucide-react';
 import { Moon } from 'lucide-react';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utill.js';
 export default function ThemeToggle() {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -15,7 +14,7 @@ export default function ThemeToggle() {
             document.documentElement.classList.remove("dark");
             setIsDarkMode(false);
         }
-    })
+    },[])
 
     function toggleTheme() {
         if(isDarkMode){
