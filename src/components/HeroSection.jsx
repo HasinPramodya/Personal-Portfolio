@@ -11,7 +11,7 @@ export default function HeroSection() {
                           <span className={"text-gradient ml-2 opacity-0 animate-fade-in-delay-2"}>{" "}Pramodya</span>
                       </h1>
 
-                      <p className={"text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"}>I am a fresh graduate at SLIIT, With 2 years of professional experience in Software Engineering, Dynamic and fast-learning software developer with a strong academic background in Information Technology. Experienced in full-stack development with expertise in Java, MERN & MEAN stack.</p>
+                      <p className={"text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"}>Software Engineer Trainee @ SYIGEN (pvt) Ltd | Former Software Engineer Intern @ One Billion Technology (Pvt) Ltd | BSc (Hons) in Information Technology at SLLIT</p>
                       <div className={"pt-4 opacity-0 animate-fade-in-delay-4"}>
                           <a href={"#projects"} className={"cosmic-button"}>View Projects</a>
                       </div>
