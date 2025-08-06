@@ -15,9 +15,6 @@ export default function AboutMeSection() {
                         I am a fresh graduate at SLIIT, with 2 years of professional experience in Software Engineering. I am a dynamic and fast-learning software developer with a strong academic background in Information Technology. Experienced in full-stack development with expertise in Java, MERN & MEAN stack.
                       </p>
 
-                      <p className={"text-muted-foreground"}>
-                         utrfyugiulhjioj
-                      </p>
 
                       <div className={"flex flex-col sm:flex-row gap-4 pt-4 justify-center"}>
                           <a href={"#contact"} className={"cosmic-button"}>{" "}Get In Touch</a>
