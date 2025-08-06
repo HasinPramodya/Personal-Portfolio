@@ -31,7 +31,7 @@ export default function AboutMeSection() {
                                     <Code className={"h-6 w-6 text-primary"} />
                               </div>
                                <div className={"text-left"}>
-                                   <h4 callsName={"font-semibold text-lg"}>Web Development</h4>
+                                   <h4 className={"font-semibold text-lg"}>Web Development</h4>
                                    <p className={"text-muted-foreground"}>
                                       Creating dynamic and responsive web applications using modern technologies like React, Node.js, and Express.
                                    </p>
@@ -44,7 +44,7 @@ export default function AboutMeSection() {
                                     <User className={"h-6 w-6 text-primary"} />
                                 </div>
                                 <div className={"text-left"}>
-                                    <h4 callsName={"font-semibold text-lg"}>Software Testing</h4>
+                                    <h4 className={"font-semibold text-lg"}>Software Testing</h4>
                                     <p className={"text-muted-foreground"}>
                                         Testing and debugging software applications to ensure quality and performance standards are met.
                                     </p>
@@ -57,7 +57,7 @@ export default function AboutMeSection() {
                                     <Briefcase className={"h-6 w-6 text-primary"} />
                                 </div>
                                 <div className={"text-left"}>
-                                    <h4 callsName={"font-semibold text-lg"}>Project Management</h4>
+                                    <h4 className={"font-semibold text-lg"}>Project Management</h4>
                                     <p className={"text-muted-foreground"}>
                                         Project planning, execution, and management to ensure timely delivery and client satisfaction.
                                     </p>
