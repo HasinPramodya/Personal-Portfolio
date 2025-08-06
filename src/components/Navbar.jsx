@@ -1,4 +1,4 @@
-import {cn} from '@/lib/utill.js';
+import {cn} from '@/lib/utils.js';
 import { useState,  useEffect } from 'react';
 import { X,Menu } from 'lucide-react';
 export default function Navbar(){
@@ -27,7 +27,7 @@ const navItem = [
 
     return(
         <>
-         <div className={cn("fixed w-full z-40 transition-all duration-300",isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5")}>
+         <nav className={cn("fixed w-full z-40 transition-all duration-300",isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5")}>
              <div className="container flex items-center justify-between">
                  <a className="text-xl font-bold text-primary flex items-center" href="#hero">
                      <span className={"relative z-10"}>
@@ -49,7 +49,7 @@ const navItem = [
                  <button onClick={()=>{
                         setIsMenuOpen(!isMenuOpen);
                  }} className={"md:hidden p-2 text-foreground z-50"} aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}>{isMenuOpen ? <X size={24}/> : <Menu size={24}/>}</button>
-                 <div className={cn("fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
+                 <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
                  "transition-all duration-300 md:hidden",
                   isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")}>
 
@@ -64,7 +64,7 @@ const navItem = [
                  </div>
 
              </div>
-         </div>
+         </nav>
         </>
     )
 }
