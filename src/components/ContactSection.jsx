@@ -9,12 +9,12 @@ import {
     Twitch,
     Send,
 } from "lucide-react";
-import { cn } from "@/lib/utils.js"; // or "@/lib/utils" if that's the correct path
+import { cn } from "@/lib/utils.js";
 import { useState } from "react";
-// import { useToast } from "@/hooks/use-toast"; // Uncomment if using ShadCN toast
+
 
 export default function ContactSection() {
-    // const { toast } = useToast(); // Uncomment if using ShadCN toast
+
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     function handleSubmit(event) {
@@ -44,7 +44,7 @@ export default function ContactSection() {
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    {/* Left Side */}
+
                     <div className="space-y-8">
                         <h3 className="text-2xl font-semibold mb-6">
                             Contact Information
@@ -117,7 +117,7 @@ export default function ContactSection() {
                         </div>
                     </div>
 
-                    {/* Right Side – Form */}
+
                     <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
 
