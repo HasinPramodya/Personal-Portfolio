@@ -5,6 +5,7 @@ export default function HeroSection() {
             <section id={"hero"} className={"relative min-h-screen flex flex-col items-center justify-center px-4"}>
                <div className={"container max-w-4xl mx-auto text-center z-10"}>
                   <div className={"space-y-6"}>
+                      <img src={"projects/hero-image.png"} alt={"Hero Image"} className={"w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full shadow-lg mb-6 opacity-0 animate-fade-in"}/>
                       <h1 className={"text-4xl md:text-6xl font-bold  tracking-tight"}>
                           <span className={"opacity-0 animate-fade-in"}>Hi, I'm</span>
                           <span className={"text-primary opacity-0 animate-fade-in-delay-1"}>{" "}Hasin</span>
